@@ -1,0 +1,334 @@
+/**********   ------------ Header Css  Start -------------    **********/
+
+@font-face {
+    font-family: JA-Hand-Reg;
+    src: url('../../assets/googlefonts/Just_Another_Hand/JustAnotherHand-Regular.ttf');
+}
+
+@font-face {
+    font-family: Raleway-Roman-Reg;
+    src: url('../../assets/googlefonts/Raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: Solway-Bold;
+    src: url('../../assets/googlefonts/Solway/Solway-Bold.ttf');
+}
+
+@font-face {
+    font-family: Solway-Reg;
+    src: url('../../assets/googlefonts/Solway/Solway-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url('../../assets/googlefonts/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: Myraid-Pro;
+    src: url('../../assets/googlefonts/MyriadPro/Myriad\ Pro\ Regular.ttf');
+}
+header.header .logo {
+    height: 100px;
+}
+.mt7{
+    margin-top: 7rem;
+}
+#mySidenav{
+    margin-top: 6.2rem;
+}
+header.header .logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+header.header .logo {
+    width: 150px;
+    height: 80px;
+}
+
+header.header ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header.header .mainRow {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header.header .col-lg-3 .header-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header.header .header-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header.header .header-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    position: relative;
+    font-family: gilroylight;
+}
+
+header.header .header-nav ul li a i {
+    color: #086db0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header.header .header-nav ul li a:hover {
+    color: #d72322;
+    font-family: gilroybold;
+    transition: all 0.5s ease;
+    font-size: 17px;
+}
+
+header.header .header-nav ul li a.active {
+    color: #d72322;
+    font-family: gilroybold;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+header.header .header-nav ul li a.active:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 2px solid #d72322;
+}
+
+header.header .header-nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+header.header .col-lg-3 .header-nav ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+header.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+    transition: all 1s ease;
+    z-index: 10;
+    background-color: #F2F2F2;
+}
+
+header.header .header-nav {
+    width: 70%;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+header.header .col-lg-3 .header-nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+/* FIXED HEADER CSS  */
+header.header.fixedHeader {
+    background-color: #2c2c2ce6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+    z-index: 10;
+    transition: all 1s ease;
+}
+
+/********** Header Css End  **********/
+
+
+
+
+/**********    -------------- Small screen menu Start ------------    ***********/
+
+
+.menu-small-screen {
+    display: none;
+}
+
+.toggle-small-screen button {
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+
+.toggle-small-screen button img {
+    width: 40px;
+    height: 30px;
+}
+
+.toggle-small-screen {
+    float: right;
+    position: relative;
+    right: 0px;
+}
+
+.btn-close {
+    background: transparent url(./assets/images/1x/close.png) center/40px auto no-repeat !important;
+}
+
+.offcanvas-header {
+    padding: 2rem 1rem !important;
+}
+
+header.header .offcanvas {
+    background-color: #000;
+    color: #fff;
+    max-width: 300px;
+}
+
+header.header .offcanvas .menus-offcanvas ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header.header .offcanvas .menus-offcanvas ul li {
+    display: block;
+    margin: 10px 0px;
+}
+
+header.header .offcanvas .menus-offcanvas ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header.header .offcanvas .offcanvas-header .btn-close {
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    /* filter: invert(1); */
+    background-size: contain;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+header.header .offcanvas .header-icons-nav ul {
+    margin: 0;
+    padding: 10px 0px;
+    list-style: none;
+}
+
+header.header .offcanvas .header-icons-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header.header .offcanvas .header-icons-nav ul li a {
+    font-size: 20px;
+    color: #000;
+}
+
+/**********    -------------- Small screen menu End ------------    ***********/
+.log-out-button {
+    border: none;
+    background: #fff;
+    padding: 8px 14px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.log-out-button i {
+    margin-right: 10px;
+}
+
+.tabs-side-bar-width {
+    width: 17%;
+}
+
+.tabs-side-bar {
+    width: 17%;
+    position: fixed;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #2D6D95;
+    border-top-right-radius: 30px;
+}
+
+
+.for-content-tabs {
+    width: 82%;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 2rem 2rem;
+    /* height: 100vh; */
+}
+.for-cstm-tabs-button {
+    color: #fff !important;
+    background: transparent !important;
+    border: none;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 18px;
+    margin: 12px 0;
+}
+.login-content2.placeholder-white input::placeholder{
+    color: #2c2c2ce6;
+}
+.login-content2 input {
+    width: 90%;
+    margin-top: 2rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #2c2c2ce6;
+    padding-bottom: 1rem;
+    font-family: PlayfairDisplay-Regular;
+}
+.black-btn-width{
+    width: 16%;
+}
+.form-group input{
+margin-top: 6px;
+background: transparent !important;
+    border: 2px solid #4D4D4D;
+    border-radius: 10px;
+}
+
+.form-group input::placeholder{
+    color: #4D4D4D;
+    }
+.form-group label{
+    margin-top: 1rem;
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 600;
+    }
+
+@media only screen and (max-width: 820px){
+.for-content-tabs {
+    width: 100%;
+    padding: 3rem 1rem;
+}
+.for-mobile-screen.sidenav{
+    background-color: #2D6D95;
+
+}
+}
